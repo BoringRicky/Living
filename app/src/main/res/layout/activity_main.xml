@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.liteng.living.MainActivity">
+
+
+    <GridView
+        android:id="@+id/gvLivingList"
+        android:numColumns="2"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></GridView>
+
+
+</RelativeLayout>
